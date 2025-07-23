@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+   
+    <div class="header-logo">
+        <img src="https://imgs.search.brave.com/OXF9gmtyP_MmKq2QHZLBVk5Zkn30ZpLeqztal8ua7zU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC8xMy85My9j/aXJjbGUtZ3JlZW4t/bGVhZi1sb2dvLXZl/Y3Rvci0xOTI1MTM5/My5qcGc" alt="Company Logo">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="login-container">
+        <div class="login-header">
+            <h1>Login</h1>
+            <p>Don't have an account? <a href="register.html" class="register-link">Register</a></p>
+        </div>
+        
+        <form class="login-form">
+            <div class="form-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox" name="remember"> Remember Me
+                </label>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+            
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </main>
+</body>
+</html>

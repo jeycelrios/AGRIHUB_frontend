@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="login.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        
+        <div class="header-logo">
+            <img src="https://imgs.search.brave.com/OXF9gmtyP_MmKq2QHZLBVk5Zkn30ZpLeqztal8ua7zU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC8xMy85My9j/aXJjbGUtZ3JlZW4t/bGVhZi1sb2dvLXZl/Y3Rvci0xOTI1MTM5/My5qcGc" alt="Company Logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html">Login</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <div class="login-header">
+            <h1>Register</h1>
+            <p>Already have an account? <a href="login.html" class="register-link">Login</a></p>
+        </div>
+        
+        <form class="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" class="login-button">Register</button>
+        </form>
+    </main>
+</body>
+</html>
